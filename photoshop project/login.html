@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Login | SimpleLogin</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background:rgba(0, 0, 0, 0.629) ;
+    }
+
+    .container {
+        max-width: 420px;
+        margin: 80px auto;
+        background: white;
+        padding: 35px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    label {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0 20px 0;
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        background: #1d75f0;
+        color: white;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .btn:hover { background: #0f5bdc; }
+
+    .proton-btn {
+        width: 100%;
+        padding: 12px;
+        margin-top: 15px;
+        border: 2px solid #a682ff;
+        background: #f5f0ff;
+        color: #6a40d8;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    a { color: #1d75f0; text-decoration: none; }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Welcome back!</h2>
+
+    <form>
+        <label>Email address</label>
+        <input type="email" placeholder="you@example.com" required />
+
+        <label>Password</label>
+        <input type="password" placeholder="••••••••" required />
+
+        <a href="#">I forgot my password</a><br><br>
+
+        <button class="btn" onclick="window.location.href='kiran.html'">Log in</button>
+    </form>
+
+    <div style="text-align:center; margin: 10px 0;">or</div>
+
+    <button class="proton-btn">Log in with Proton</button>
+
+    <div class="footer">
+        Don't have an account yet? <a href="#">Sign up</a>
+    </div>
+
+</div>
+
+</body>
+</html>
